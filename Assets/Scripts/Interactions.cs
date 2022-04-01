@@ -11,4 +11,8 @@ public class Interactions : MonoBehaviour
     public void Shrink(GameObject gameObject) {
         gameObject.transform.localScale = new Vector3(1f, 1f, 0f);
     }
+
+    public void DestroyObject(GameObject gameObject) {
+        Destroy(gameObject);
+    }
 }

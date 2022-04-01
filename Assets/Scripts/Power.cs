@@ -5,7 +5,7 @@ using UnityEngine;
 public class Power : MonoBehaviour
 {
     private static float maxDistance = 1f;
-    private Vector3 initialPosition;
+    public Vector3 initialPosition;
     public string type;
 
     // Start is called before the first frame update

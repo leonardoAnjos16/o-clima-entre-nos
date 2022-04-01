@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private Power[] powers;
     public float speed;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        powers = FindObjectsOfType<Power>();
     }
 
     // Update is called once per frame
@@ -29,6 +30,12 @@ public class Player : MonoBehaviour
             dy = -speed * Time.deltaTime;
         }
 
-        transform.position += new Vector3(dx, dy, 0f);
+        Vector3 displacement = new Vector3(dx, dy, 0);
+        transform.position += displacement;
+
+        foreach (Power power in powers) {
+            power.transform.position += displacement;
+            power.initialPosition += displacement;
+        }
     }
 }
