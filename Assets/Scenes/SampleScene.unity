@@ -218,7 +218,7 @@ Transform:
   m_Children:
   - {fileID: 519420032}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &83519768
 GameObject:
@@ -250,23 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165b4bd1bf3b6ec49a6b02069e286a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactions:
-  - type: grow
-    handler:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 116524321}
-          m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-          m_MethodName: Grow
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 83519768}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  interactions: []
 --- !u!212 &83519770
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -332,49 +316,6 @@ Transform:
   m_Father: {fileID: 994420004}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &116524320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 116524322}
-  - component: {fileID: 116524321}
-  m_Layer: 0
-  m_Name: Interactions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &116524321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116524320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c42574f45c2970046bcb0458241f5d7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &116524322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116524320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &414624866
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,39 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165b4bd1bf3b6ec49a6b02069e286a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactions:
-  - type: grow
-    handler:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 116524321}
-          m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-          m_MethodName: Grow
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 414624866}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - type: destroy
-    handler:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 116524321}
-          m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-          m_MethodName: DestroyObject
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 414624866}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  interactions: []
 --- !u!212 &414624868
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -698,7 +607,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831175537
 GameObject:
@@ -731,22 +640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactions:
-  - type: destroy
-    handler:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 116524321}
-          m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-          m_MethodName: DestroyObject
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 831175537}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  - {fileID: 11400000, guid: bb8ef31cfc3585e47bb73ef56b23b156, type: 2}
 --- !u!212 &831175539
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -958,7 +852,53 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1346410915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1346410917}
+  - component: {fileID: 1346410916}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1346410916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346410915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52fd62a44f2feca4181f847ee8e047b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missions:
+  - {fileID: 11400000, guid: fdd03bd19d0849a469012a56f414d5da, type: 2}
+  - {fileID: 11400000, guid: 537f96eba7d53634fbf091e26f53ec67, type: 2}
+--- !u!4 &1346410917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346410915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425403081
 GameObject:
@@ -1056,38 +996,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactions:
-  - type: grow
-    handler:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 116524321}
-          m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-          m_MethodName: Grow
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1425403081}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - type: shrink
-    handler:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 116524321}
-          m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-          m_MethodName: Shrink
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 1425403081}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  - {fileID: 11400000, guid: 49ac2cf4fc305b143a4168c56ecb20bc, type: 2}
+  - {fileID: 11400000, guid: e58d7d9a5999a3f4f84255457f6145b1, type: 2}
 --- !u!1 &1658984150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,7 +1094,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1658984154
 CircleCollider2D:
