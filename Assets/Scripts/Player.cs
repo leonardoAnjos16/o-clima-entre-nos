@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     private Animator animator;
     private Power[] powers;
-    public float speed;
+    public float speed, minX, maxX, minY, maxY;
 
     // Start is called before the first frame update
     void Start()
@@ -47,8 +47,14 @@ public class Player : MonoBehaviour
             animator.SetBool("walking", true);
         }
 
-        Vector3 displacement = new Vector3(dx, dy, 0);
-        transform.position += displacement;
+        // Vector3 displacement = new Vector3(dx, dy, 0);
+        // transform.position += displacement;
+        float newX = Mathf.Clamp(transform.position.x + dx, minX, maxX);
+        float newY = Mathf.Clamp(transform.position.y + dy, minY, maxY);
+
+        Vector3 newPosition = new Vector3(newX, newY, 0f);
+        Vector3 displacement = newPosition - transform.position;
+        transform.position = newPosition;
 
         foreach (Power power in powers) {
             power.transform.position += displacement;
