@@ -47,8 +47,6 @@ public class Player : MonoBehaviour
             animator.SetBool("walking", true);
         }
 
-        // Vector3 displacement = new Vector3(dx, dy, 0);
-        // transform.position += displacement;
         float newX = Mathf.Clamp(transform.position.x + dx, minX, maxX);
         float newY = Mathf.Clamp(transform.position.y + dy, minY, maxY);
 
