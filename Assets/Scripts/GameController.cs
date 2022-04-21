@@ -4,29 +4,23 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    private int missionIndex;
-    public Mission[] missions;
+    private static int missionIndex;
+    private static Mission[] missions;
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Awake() {
         missionIndex = 0;
-        foreach (Mission mission in missions) {
-            mission.Create(this);
-        }
+        missions = Resources.LoadAll<Mission>("Missions");
+        missions[0].Init();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public Mission GetMission() {
+    public static Mission GetMission() {
         return missions[missionIndex];
     }
 
-    public void NextMission() {
+    public static void NextMission() {
         missionIndex++;
+        if (missionIndex < missions.Length) {
+            missions[missionIndex].Init();
+        }
     }
 }

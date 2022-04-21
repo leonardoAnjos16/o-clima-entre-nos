@@ -5,15 +5,14 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Mission", menuName = "Scriptable Objects/Mission")]
 public class Mission: ScriptableObject
 {
-    private GameController gameController;
-    private int interactionIndex;
     public new string name;
     public string description;
+
+    private int interactionIndex;
     public Interaction[] needed, extra;
 
-    public void Create(GameController gameController) {
-        this.interactionIndex = 0;
-        this.gameController = gameController;
+    public void Init() {
+        interactionIndex = 0;
     }
 
     public Interaction GetInteraction() {
@@ -22,7 +21,17 @@ public class Mission: ScriptableObject
 
     public void NextInteraction() {
         if (++interactionIndex >= needed.Length) {
-            gameController.NextMission();
+            GameController.NextMission();
         }
+    }
+
+    public bool HasExtra(string name) {
+        foreach (Interaction interaction in extra) {
+            if (interaction.name == name) {
+                return true;
+            }
+        }
+
+        return false;
     }
 }

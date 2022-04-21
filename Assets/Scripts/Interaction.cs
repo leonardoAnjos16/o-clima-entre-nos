@@ -6,17 +6,18 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName = "Interaction", menuName = "Scriptable Objects/Interaction")]
 public class Interaction : ScriptableObject
 {
-    public Mission mission;
     public new string name;
-    public string powerType;
+    public Mission mission;
     public UnityEvent<GameObject> handler;
 
     public Mission GetMission() {
         return mission;
     }
 
-    public void Interact(GameObject gameObject) {
+    public void Interact(GameObject gameObject, bool isExtra = false) {
         handler.Invoke(gameObject);
-        mission.NextInteraction();
+        if (!isExtra) {
+            mission.NextInteraction();
+        }
     }
 }

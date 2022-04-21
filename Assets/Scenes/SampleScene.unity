@@ -250,7 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 165b4bd1bf3b6ec49a6b02069e286a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactions: []
+  interactions:
+  - powerType: destroy
+    interaction: {fileID: 11400000, guid: 8ffa15153b15da1419bac3b4c3d6f447, type: 2}
 --- !u!212 &83519770
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -640,7 +642,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactions:
-  - {fileID: 11400000, guid: bb8ef31cfc3585e47bb73ef56b23b156, type: 2}
+  - powerType: destroy
+    interaction: {fileID: 11400000, guid: bb8ef31cfc3585e47bb73ef56b23b156, type: 2}
 --- !u!212 &831175539
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -883,9 +886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fd62a44f2feca4181f847ee8e047b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  missions:
-  - {fileID: 11400000, guid: fdd03bd19d0849a469012a56f414d5da, type: 2}
-  - {fileID: 11400000, guid: 537f96eba7d53634fbf091e26f53ec67, type: 2}
 --- !u!4 &1346410917
 Transform:
   m_ObjectHideFlags: 0
@@ -996,8 +996,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactions:
-  - {fileID: 11400000, guid: 49ac2cf4fc305b143a4168c56ecb20bc, type: 2}
-  - {fileID: 11400000, guid: e58d7d9a5999a3f4f84255457f6145b1, type: 2}
+  - powerType: grow
+    interaction: {fileID: 11400000, guid: 49ac2cf4fc305b143a4168c56ecb20bc, type: 2}
+  - powerType: shrink
+    interaction: {fileID: 11400000, guid: e58d7d9a5999a3f4f84255457f6145b1, type: 2}
 --- !u!1 &1658984150
 GameObject:
   m_ObjectHideFlags: 0

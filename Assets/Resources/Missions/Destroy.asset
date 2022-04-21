@@ -16,4 +16,5 @@ MonoBehaviour:
   description: destroy
   needed:
   - {fileID: 11400000, guid: bb8ef31cfc3585e47bb73ef56b23b156, type: 2}
-  extra: []
+  extra:
+  - {fileID: 11400000, guid: 8ffa15153b15da1419bac3b4c3d6f447, type: 2}
