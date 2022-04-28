@@ -5,38 +5,36 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Animator animator;
-    private Power[] powers;
     public float speed, minX, maxX, minY, maxY;
+
+    private bool facingRight;
+    private new SpriteRenderer renderer;
 
     // Start is called before the first frame update
     void Start()
     {
+        facingRight = true;
         animator = GetComponent<Animator>();
-        powers = FindObjectsOfType<Power>();
+        renderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 scale = transform.localScale;
         animator.SetBool("walking", false);
 
         float dx = 0f;
         if (Input.GetKey("right")) {
+            facingRight = true;
             dx = speed * Time.deltaTime;
-
-            scale.x = Mathf.Abs(scale.x);
-            transform.localScale = scale;
-
             animator.SetBool("walking", true);
         } else if (Input.GetKey("left")) {
+            facingRight = false;
             dx = -speed * Time.deltaTime;
-
-            scale.x = -Mathf.Abs(scale.x);
-            transform.localScale = scale;
-
             animator.SetBool("walking", true);
         }
+
+        renderer.flipX = !facingRight;
 
         float dy = 0f;
         if (Input.GetKey("up")) {
@@ -49,14 +47,6 @@ public class Player : MonoBehaviour
 
         float newX = Mathf.Clamp(transform.position.x + dx, minX, maxX);
         float newY = Mathf.Clamp(transform.position.y + dy, minY, maxY);
-
-        Vector3 newPosition = new Vector3(newX, newY, 0f);
-        Vector3 displacement = newPosition - transform.position;
-        transform.position = newPosition;
-
-        foreach (Power power in powers) {
-            power.transform.position += displacement;
-            power.initialPosition += displacement;
-        }
+        transform.position = new Vector3(newX, newY, 0f);
     }
 }
