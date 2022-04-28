@@ -4,18 +4,6 @@ using UnityEngine;
 
 public class Chest : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public IEnumerator Fall() {
         float initialX = transform.position.x;
         float initialY = transform.position.y;

@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07052831bb8d2fa4c95e1167b780070d, type: 3}
-  m_Name: Destroy
+  m_Name: 01 - Find Key
   m_EditorClassIdentifier: 
-  name: destroy
-  description: destroy
+  name: find-key
+  description: Fall must find the key to leave the room
   needed:
-  - {fileID: 11400000, guid: bb8ef31cfc3585e47bb73ef56b23b156, type: 2}
+  - {fileID: 11400000, guid: 6d2918b244421004a97cf2075e7176ee, type: 2}
   extra:
-  - {fileID: 11400000, guid: 8ffa15153b15da1419bac3b4c3d6f447, type: 2}
   - {fileID: 11400000, guid: 1bc67a88390964a72bdfc4c7638c5b8f, type: 2}

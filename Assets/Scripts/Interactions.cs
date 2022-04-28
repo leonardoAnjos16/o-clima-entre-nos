@@ -17,18 +17,18 @@ public class Interactions: ScriptableObject
         Destroy(gameObject);
     }
 
-    public void Wind(GameObject gameObject, Dictionary<string, string> data) {
+    public void Move(GameObject gameObject, Dictionary<string, string> data) {
         if (data["object"] == "chest") {
             Chest chest = gameObject.GetComponent<Chest>();
             chest.StartCoroutine(chest.Fall());
-        } else {
-            if (data["direction"] == "right-up") {
-                gameObject.transform.position += new Vector3(1f, 1f, 0f);
-            } else if (data["direction"] == "left-up") {
-                gameObject.transform.position += new Vector3(-1f, 1f, 0f);
-            } else if (data["direction"] == "left-down") {
-                gameObject.transform.position += new Vector3(-1f, -1f, 0f);
-            }
+        } else if (data["direction"] == "left-up") {
+            gameObject.transform.position += new Vector3(-1f, 1f, 0f);
+        } else if (data["direction"] == "left-down") {
+            gameObject.transform.position += new Vector3(-1f, -1f, 0f);
         }
-     }
+    }
+
+    public void MoveAndReveal(GameObject gameObject, Dictionary<string, string> data) {
+        gameObject.transform.position += new Vector3(1f, 2f, 0f);
+    }
 }

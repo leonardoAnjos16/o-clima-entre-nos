@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81ab7808613b672408eb98fa1a94c915, type: 3}
-  m_Name: Wind
+  m_Name: MoveAndReveal
   m_EditorClassIdentifier: 
-  name: wind
+  name: move-reveal
   mission: {fileID: 11400000, guid: 537f96eba7d53634fbf091e26f53ec67, type: 2}
   handler:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 546af1d24563a1c42b49b8669f1bfed7, type: 2}
         m_TargetAssemblyTypeName: Interactions, Assembly-CSharp
-        m_MethodName: Wind
+        m_MethodName: MoveAndReveal
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
