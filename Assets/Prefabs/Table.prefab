@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8115505845593390948}
   m_Layer: 0
   m_Name: chair_right
-  m_TagString: Untagged
+  m_TagString: table1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8115505845593390951}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.2, y: -1.8, z: 0}
+  m_LocalPosition: {x: -2.2, y: 0.2, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 8115505846418543694}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 8115505845752967650}
   m_Layer: 0
   m_Name: table_big
-  m_TagString: Untagged
+  m_TagString: table1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8115505845752967653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14, y: -2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 8115505846418543694}
@@ -174,9 +174,11 @@ GameObject:
   m_Component:
   - component: {fileID: 8115505846418543694}
   - component: {fileID: 1098329249}
+  - component: {fileID: 782286174}
+  - component: {fileID: 1132256947}
   m_Layer: 0
   m_Name: Table
-  m_TagString: Untagged
+  m_TagString: table1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +213,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -14.017234, y: -1.8753215}
+  m_Offset: {x: 0.06531334, y: 0.0052666664}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -222,8 +224,38 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.640627, y: 1.8264129}
+  m_Size: {x: 5.640629, y: 2.2637596}
   m_EdgeRadius: 0
+--- !u!114 &782286174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8115505846418543665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165b4bd1bf3b6ec49a6b02069e286a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactions:
+  - powerType: wind
+    interaction: {fileID: 11400000, guid: 1bc67a88390964a72bdfc4c7638c5b8f, type: 2}
+--- !u!114 &1132256947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8115505846418543665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 165b4bd1bf3b6ec49a6b02069e286a34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactions:
+  - powerType: wind
+    interaction: {fileID: 11400000, guid: 1bc67a88390964a72bdfc4c7638c5b8f, type: 2}
 --- !u!1 &8115505847133107277
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +268,7 @@ GameObject:
   - component: {fileID: 8115505847133107274}
   m_Layer: 0
   m_Name: chair_left
-  m_TagString: Untagged
+  m_TagString: table1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8115505847133107277}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.8, y: -1.8, z: 0}
+  m_LocalPosition: {x: 2.2, y: 0.2, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 8115505846418543694}

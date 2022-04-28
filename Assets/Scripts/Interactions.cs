@@ -5,26 +5,30 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Interactions", menuName = "Scriptable Objects/Interactions")]
 public class Interactions: ScriptableObject
 {
-    public void Grow(GameObject gameObject) {
+    public void Grow(GameObject gameObject, Dictionary<string, string> data) {
         gameObject.transform.localScale = new Vector3(2f, 2f, 0f);
     }
 
-    public void Shrink(GameObject gameObject) {
+    public void Shrink(GameObject gameObject, Dictionary<string, string> data) {
         gameObject.transform.localScale = new Vector3(.5f, .5f, .5f);
     }
 
-    public void DestroyObject(GameObject gameObject) {
+    public void DestroyObject(GameObject gameObject, Dictionary<string, string> data) {
         Destroy(gameObject);
     }
 
-    public void Wind(GameObject gameObject){
-        Debug.Log("entrou em Wind");
-        if (gameObject.tag == "table1") {
-            gameObject.transform.position = new Vector3(0f, 1.2f, 0f);
-
-        }else if(gameObject.tag == "table2"){
-            gameObject.transform.position = new Vector3(0f, -3f, 0f);
-
+    public void Wind(GameObject gameObject, Dictionary<string, string> data) {
+        if (data["object"] == "chest") {
+            Chest chest = gameObject.GetComponent<Chest>();
+            chest.StartCoroutine(chest.Fall());
+        } else {
+            if (data["direction"] == "right-up") {
+                gameObject.transform.position += new Vector3(1f, 1f, 0f);
+            } else if (data["direction"] == "left-up") {
+                gameObject.transform.position += new Vector3(-1f, 1f, 0f);
+            } else if (data["direction"] == "left-down") {
+                gameObject.transform.position += new Vector3(-1f, -1f, 0f);
+            }
         }
      }
 }

@@ -40,7 +40,6 @@ public class Power : MonoBehaviour
 
     private void OnMouseUp() {
         Interactable[] interactableObjects = FindObjectsOfType<Interactable>();
-        Debug.Log(interactableObjects.Length);
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.Interact(type);
@@ -53,7 +52,6 @@ public class Power : MonoBehaviour
 
     private bool Touch(GameObject other) {
         Vector3 difference = transform.position - other.transform.position;
-        Debug.Log(other + ": " + difference.magnitude);
         return difference.magnitude <= maxDistance;
     }
 }

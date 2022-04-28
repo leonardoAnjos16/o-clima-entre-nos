@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,14 +9,14 @@ public class Interaction : ScriptableObject
 {
     public new string name;
     public Mission mission;
-    public UnityEvent<GameObject> handler;
+    public UnityEvent<GameObject, Dictionary<string, string>> handler;
 
     public Mission GetMission() {
         return mission;
     }
 
-    public void Interact(GameObject gameObject, bool isExtra = false) {
-        handler.Invoke(gameObject);
+    public void Interact(GameObject gameObject, Dictionary<string, string> data, bool isExtra = false) {
+        handler.Invoke(gameObject, data);
         if (!isExtra) {
             mission.NextInteraction();
         }
