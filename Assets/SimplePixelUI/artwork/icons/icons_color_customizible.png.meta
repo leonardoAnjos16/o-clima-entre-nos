@@ -1,132 +1,114 @@
 fileFormatVersion: 2
-guid: 84e75a365719c47359734efe9e23879b
+guid: 2a01691a87fedbe4aa6de6f1c0c0f3d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3441071581007832801
-    second: Serene Village - Outside_0
+      213: -3915288548941881612
+    second: isonswhite2_0
   - first:
-      213: 8729866412190582904
-    second: Serene Village - Outside_1
+      213: -6064698589780549783
+    second: isonswhite2_1
   - first:
-      213: -2350078304882906682
-    second: Serene Village - Outside_2
+      213: 4376132946644718016
+    second: isonswhite2_2
   - first:
-      213: 935968623836506669
-    second: Serene Village - Outside_3
+      213: 3943050131641414758
+    second: isonswhite2_3
   - first:
-      213: -5606309387935972224
-    second: Serene Village - Outside_4
+      213: -2891059516951804756
+    second: isonswhite2_4
   - first:
-      213: -4834631112782315060
-    second: Serene Village - Outside_5
+      213: 5548767936245927627
+    second: isonswhite2_5
   - first:
-      213: -5405907890657059035
-    second: Serene Village - Outside_6
+      213: -5900926969388301916
+    second: isonswhite2_6
   - first:
-      213: 3143443494182385188
-    second: Serene Village - Outside_7
+      213: 1881423083123314185
+    second: isonswhite2_7
   - first:
-      213: 6099403020515788108
-    second: Serene Village - Outside_8
+      213: -961280449010390996
+    second: isonswhite2_8
   - first:
-      213: 3945577650218106715
-    second: Serene Village - Outside_9
+      213: -5474248854234790524
+    second: isonswhite2_9
   - first:
-      213: -1514523120354589139
-    second: Serene Village - Outside_10
+      213: -5611136652117499180
+    second: isonswhite2_10
   - first:
-      213: 7735072524483787677
-    second: Serene Village - Outside_11
+      213: -2024606662850549571
+    second: isonswhite2_11
   - first:
-      213: 1313782204548596349
-    second: Serene Village - Outside_12
+      213: -2381500297140005776
+    second: isonswhite2_12
   - first:
-      213: 684224365119911084
-    second: Serene Village - Outside_13
+      213: -5908534354296120792
+    second: isonswhite2_13
   - first:
-      213: 5151189587513824785
-    second: Serene Village - Outside_14
+      213: -1099396636000734626
+    second: isonswhite2_14
   - first:
-      213: 5767549383052939644
-    second: Serene Village - Outside_15
+      213: -9147400036283487591
+    second: isonswhite2_15
   - first:
-      213: 8949715116190844872
-    second: Serene Village - Outside_16
+      213: 107280097507075921
+    second: isonswhite2_16
   - first:
-      213: -1818254513339311128
-    second: Serene Village - Outside_17
+      213: -3651824946001971164
+    second: isonswhite2_17
   - first:
-      213: -84656270005238465
-    second: Serene Village - Outside_18
+      213: -5743856943257200401
+    second: isonswhite2_18
   - first:
-      213: -1420629216748116239
-    second: Serene Village - Outside_19
+      213: -3970517187922480367
+    second: isonswhite2_19
   - first:
-      213: -9094450316175438231
-    second: Serene Village - Outside_20
+      213: 2773992808477904761
+    second: isonswhite2_20
   - first:
-      213: 6523720084691089132
-    second: Serene Village - Outside_21
+      213: 2238386083235014152
+    second: isonswhite2_21
   - first:
-      213: 8186826790499261480
-    second: Serene Village - Outside_22
+      213: -5305403707639393297
+    second: isonswhite2_22
   - first:
-      213: -7722924257175409072
-    second: Serene Village - Outside_23
+      213: -7440971185202368722
+    second: isonswhite2_23
   - first:
-      213: 3180641625491473410
-    second: Serene Village - Outside_24
+      213: -7062812790716468544
+    second: isonswhite2_24
   - first:
-      213: -2908760487872864762
-    second: Serene Village - Outside_25
+      213: 97452308493143843
+    second: isonswhite2_25
   - first:
-      213: -3605412998210469432
-    second: Serene Village - Outside_26
+      213: -4598059474086584248
+    second: isonswhite2_26
   - first:
-      213: -5965816328033556043
-    second: Serene Village - Outside_27
+      213: 650022395868303075
+    second: isonswhite2_27
   - first:
-      213: 1298750154496250661
-    second: Serene Village - Outside_28
+      213: 8733657598935678242
+    second: isonswhite2_28
   - first:
-      213: -4283352727114893572
-    second: Serene Village - Outside_29
+      213: -8943924478185911527
+    second: isonswhite2_29
   - first:
-      213: -3802632650248669100
-    second: Serene Village - Outside_30
+      213: 2717596346815555612
+    second: isonswhite2_30
   - first:
-      213: -6062622978271102432
-    second: Serene Village - Outside_31
+      213: -1613750400487606341
+    second: isonswhite2_31
   - first:
-      213: -4820025792327313813
-    second: Serene Village - Outside_32
+      213: -2308001801626795153
+    second: isonswhite2_32
   - first:
-      213: 3797333294815560180
-    second: Serene Village - Outside_33
+      213: -6548008519882821858
+    second: isonswhite2_33
   - first:
-      213: -242047622059936328
-    second: Serene Village - Outside_34
-  - first:
-      213: 8925464222071237619
-    second: Serene Village - Outside_35
-  - first:
-      213: -2244924102147715613
-    second: Serene Village - Outside_36
-  - first:
-      213: -7979260733241432963
-    second: Serene Village - Outside_37
-  - first:
-      213: 4759121701299327651
-    second: Serene Village - Outside_38
-  - first:
-      213: -5174796805491815719
-    second: Serene Village - Outside_39
-  - first:
-      213: 6582092931409483827
-    second: Serene Village - Outside_40
+      213: -1148617841872355270
+    second: isonswhite2_34
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -146,7 +128,6 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
-  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -155,9 +136,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
-    aniso: 1
-    mipBias: 0
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -169,29 +150,25 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
-  flipbookRows: 1
-  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
-  ignorePngGamma: 0
-  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -203,7 +180,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -215,7 +204,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -226,12 +215,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Serene Village - Outside_0
+      name: isonswhite2_0
       rect:
         serializedVersion: 2
-        x: 85
-        y: 392
-        width: 36
+        x: 0
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -240,209 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f19165fe0abde30d0800000000000000
-      internalID: -3441071581007832801
+      spriteID: 380374744a704d747bbd1b37ee1c5b9c
+      internalID: -3915288548941881612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_1
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 304
-        width: 28
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 878cb33cf37b62970800000000000000
-      internalID: 8729866412190582904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 339
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c92a13ab38d26fd0800000000000000
-      internalID: -2350078304882906682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_3
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 337
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2aafa0218a3dfc00800000000000000
-      internalID: 935968623836506669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_4
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 337
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 084832fa0536232b0800000000000000
-      internalID: -5606309387935972224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_5
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 321
-        width: 14
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc10f8e2e90f7ecb0800000000000000
-      internalID: -4834631112782315060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_6
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 337
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52f97e84a6b5af4b0800000000000000
-      internalID: -5405907890657059035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_7
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 323
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 426f04a0431cf9b20800000000000000
-      internalID: 3143443494182385188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_8
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 321
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c45c9cb2bbe65a450800000000000000
-      internalID: 6099403020515788108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_9
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 320
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5f78f2e7f181c630800000000000000
-      internalID: 3945577650218106715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_10
+      name: isonswhite2_1
       rect:
         serializedVersion: 2
         x: 32
-        y: 273
-        width: 48
-        height: 43
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -450,62 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d26062f0f355bfae0800000000000000
-      internalID: -1514523120354589139
+      spriteID: 973290eb2ffbb67469e3561373e9ec7c
+      internalID: -6064698589780549783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_11
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 289
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9b7db59a7f785b60800000000000000
-      internalID: 7735072524483787677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_12
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 208
-        width: 60
-        height: 55
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d72495e44fd7b3210800000000000000
-      internalID: 1313782204548596349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_13
+      name: isonswhite2_2
       rect:
         serializedVersion: 2
         x: 64
-        y: 176
+        y: 128
         width: 32
-        height: 87
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca4b3a55f6ade7900800000000000000
-      internalID: 684224365119911084
+      spriteID: f2361999df7161a4082d0f6aa6d3e4f9
+      internalID: 4376132946644718016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_14
+      name: isonswhite2_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 229
-        width: 15
-        height: 7
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 116d37e33a3bc7740800000000000000
-      internalID: 5151189587513824785
+      spriteID: 5c6cc97f32cbec34f8a94089c7c9f937
+      internalID: 3943050131641414758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_15
+      name: isonswhite2_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 144
-        width: 72
-        height: 62
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -555,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c71d4692b937a0050800000000000000
-      internalID: 5767549383052939644
+      spriteID: 391cc8a1335fe724bb0fa0486fbd59cd
+      internalID: -2891059516951804756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_16
+      name: isonswhite2_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 160
-        width: 13
-        height: 10
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c7cf750b76c33c70800000000000000
-      internalID: 8949715116190844872
+      spriteID: 059c5a1250eb6ef499a6e15e612b06e5
+      internalID: 5548767936245927627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_17
+      name: isonswhite2_6
       rect:
         serializedVersion: 2
-        x: 1
-        y: 80
-        width: 60
-        height: 55
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,20 +355,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ebd825572344c6e0800000000000000
-      internalID: -1818254513339311128
+      spriteID: 3caf3b742d1d3b0459aafa9150fa744b
+      internalID: -5900926969388301916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_18
+      name: isonswhite2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bdb54141c168041a1c1ef6e5f8a954
+      internalID: 1881423083123314185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb713cae8b0462240af6e75a14d041e1
+      internalID: -961280449010390996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_9
       rect:
         serializedVersion: 2
         x: 64
-        y: 81
+        y: 96
         width: 32
-        height: 54
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,81 +418,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f35045a229d33def0800000000000000
-      internalID: -84656270005238465
+      spriteID: c2a5967f5aef64745b9c0b898dc064c0
+      internalID: -5474248854234790524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_19
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 112
-        width: 31
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f6ef221149e84ce0800000000000000
-      internalID: -1420629216748116239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_20
+      name: isonswhite2_10
       rect:
         serializedVersion: 2
         x: 96
-        y: 101
-        width: 15
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96e8ce43f950ac180800000000000000
-      internalID: -9094450316175438231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_21
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 16
-        width: 72
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce6f7165ad8e88a50800000000000000
-      internalID: 6523720084691089132
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_22
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 352
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -702,18 +439,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c1c5d17937d9170800000000000000
-      internalID: 8186826790499261480
+      spriteID: ec4499ce2d7c7d44590673c050aab104
+      internalID: -5611136652117499180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_23
+      name: isonswhite2_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 352
+        x: 128
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -723,166 +460,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05eefcf4e49a2d490800000000000000
-      internalID: -7722924257175409072
+      spriteID: e04de316f4b953d45b28d39ed7c28799
+      internalID: -2024606662850549571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_24
+      name: isonswhite2_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2048d35e4b8e32c20800000000000000
-      internalID: 3180641625491473410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_25
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 376
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60e55af5fb102a7d0800000000000000
-      internalID: -2908760487872864762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_26
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 368
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c1c61dfafff6fdc0800000000000000
-      internalID: -3605412998210469432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 377
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b9a55c68a9253da0800000000000000
-      internalID: -5965816328033556043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_28
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 369
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5239bba6266160210800000000000000
-      internalID: 1298750154496250661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_29
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 374
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf6bd9c83697e84c0800000000000000
-      internalID: -4283352727114893572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_30
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 423
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45830a670c55a3bc0800000000000000
-      internalID: -3802632650248669100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_31
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 18
+        x: 160
+        y: 96
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -891,19 +481,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ab70db58c3ddba0800000000000000
-      internalID: -6062622978271102432
+      spriteID: 147d59b16680aac4c933bd79991a96fc
+      internalID: -2381500297140005776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_32
+      name: isonswhite2_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 31
+        x: 192
+        y: 96
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -912,20 +502,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b661c185414db1db0800000000000000
-      internalID: -4820025792327313813
+      spriteID: 2c04e30c14c5c374a8227e7c34ed142b
+      internalID: -5908534354296120792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_33
+      name: isonswhite2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56890e59be1572b4c86fbb7ea9f7c20c
+      internalID: -1099396636000734626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_15
       rect:
         serializedVersion: 2
         x: 32
-        y: 390
-        width: 47
-        height: 36
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -933,83 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f1ce333386d2b430800000000000000
-      internalID: 3797333294815560180
+      spriteID: c596129714d483a49979ba1e1938d9bb
+      internalID: -9147400036283487591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_34
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 272
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b5b36c58f214acf0800000000000000
-      internalID: -242047622059936328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_35
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 307
-        width: 48
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fba30cbb6e9ddb70800000000000000
-      internalID: 8925464222071237619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_36
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 100
-        width: 60
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3edc5c75c6d68d0e0800000000000000
-      internalID: -2244924102147715613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Serene Village - Outside_37
+      name: isonswhite2_16
       rect:
         serializedVersion: 2
         x: 64
-        y: 81
-        width: 16
-        height: 19
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1017,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d74ebe893a8f34190800000000000000
-      internalID: -7979260733241432963
+      spriteID: b21005b3bad5007438056bbeaccfcdf1
+      internalID: 107280097507075921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_38
+      name: isonswhite2_17
       rect:
         serializedVersion: 2
-        x: 83
-        y: 130
-        width: 13
-        height: 14
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1038,20 +586,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a29cc0f8fbcb0240800000000000000
-      internalID: 4759121701299327651
+      spriteID: d1d94e35d6b71a3419d282437b13a9f6
+      internalID: -3651824946001971164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_39
+      name: isonswhite2_18
       rect:
         serializedVersion: 2
-        x: 105
-        y: 68
-        width: 15
-        height: 14
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1059,29 +607,344 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9da85dff8bd6f28b0800000000000000
-      internalID: -5174796805491815719
+      spriteID: 14682209c130cba448b45090cd705733
+      internalID: -5743856943257200401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Serene Village - Outside_40
+      name: isonswhite2_19
       rect:
         serializedVersion: 2
-        x: 75
-        y: 275
-        width: 4
-        height: 9
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 338954fc5aa485b50800000000000000
-      internalID: 6582092931409483827
+      spriteID: da60c1460906de4449024d14170d72af
+      internalID: -3970517187922480367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6725aba4f848cb44a849f8915fd9d78
+      internalID: 2773992808477904761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dec9fa8f7e7084b9d24793b55210c3
+      internalID: 2238386083235014152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_22
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871141ec4b3da3b4aaab3dfb446154a3
+      internalID: -5305403707639393297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8516e44081f5043a2fce6db11b36e1
+      internalID: -7440971185202368722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c7e829eaf3a5544a2b53e848d04a4c
+      internalID: -7062812790716468544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b662050b3442b6468f4a8133fe23d9d
+      internalID: 97452308493143843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5659aef3343f69f4fa3375458f170acf
+      internalID: -4598059474086584248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8888b150c859d97459d080d8fc69e043
+      internalID: 650022395868303075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651e2e9f678c1c741a2e6a8dfee09bad
+      internalID: 8733657598935678242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b38fe69498fe24a85d07cc7a4de4e5
+      internalID: -8943924478185911527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8d4b631551dae489b70bb3cf70fcca
+      internalID: 2717596346815555612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b958f102782484f9aff1336f0a8c99
+      internalID: -1613750400487606341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091d6ff2bd134c84bb3cad0990ac1f2a
+      internalID: -2308001801626795153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9859a2ed01cdb4a95677e734e595d5
+      internalID: -6548008519882821858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: isonswhite2_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89a7f20f54e764ababba8a3de80fe7
+      internalID: -1148617841872355270
       vertices: []
       indices: 
       edges: []
