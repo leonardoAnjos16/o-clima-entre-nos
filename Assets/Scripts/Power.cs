@@ -20,6 +20,7 @@ public class Power : MonoBehaviour
 
     private void OnMouseUp() {
         Interactable[] interactableObjects = FindObjectsOfType<Interactable>();
+        Debug.Log(interactableObjects);
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.Interact(type);

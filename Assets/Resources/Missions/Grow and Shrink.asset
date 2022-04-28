@@ -17,4 +17,6 @@ MonoBehaviour:
   needed:
   - {fileID: 11400000, guid: 49ac2cf4fc305b143a4168c56ecb20bc, type: 2}
   - {fileID: 11400000, guid: e58d7d9a5999a3f4f84255457f6145b1, type: 2}
-  extra: []
+  extra:
+  - {fileID: 11400000, guid: 689a42ee74cdb4b49885162cfc43c7ed, type: 2}
+  - {fileID: 11400000, guid: 689a42ee74cdb4b49885162cfc43c7ed, type: 2}

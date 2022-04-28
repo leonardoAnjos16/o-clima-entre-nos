@@ -16,4 +16,15 @@ public class Interactions: ScriptableObject
     public void DestroyObject(GameObject gameObject) {
         Destroy(gameObject);
     }
+
+    public void Wind(GameObject gameObject){
+        Debug.Log("entrou em Wind");
+        if (gameObject.tag == "table1") {
+            gameObject.transform.position = new Vector3(0f, 1.2f, 0f);
+
+        }else if(gameObject.tag == "table2"){
+            gameObject.transform.position = new Vector3(0f, -3f, 0f);
+
+        }
+     }
 }
