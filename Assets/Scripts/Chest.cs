@@ -9,9 +9,9 @@ public class Chest : MonoBehaviour
         float initialY = transform.position.y;
 
         while (transform.position.y > initialY - 3f) {
-            transform.position -= new Vector3(3f * Time.deltaTime, 0f, 0f);
+            transform.position -= new Vector3(5f * Time.deltaTime, 0f, 0f);
             if (transform.position.x <= initialX - 2.4f) {
-                transform.position -= new Vector3(0f, 3f * Time.deltaTime, 0f);
+                transform.position -= new Vector3(0f, 8f * Time.deltaTime, 0f);
             }
 
             yield return null;
