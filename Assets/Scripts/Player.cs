@@ -46,8 +46,19 @@ public class Player : MonoBehaviour
             animator.SetBool("walking", true);
         }
 
-        float newX = Mathf.Clamp(transform.position.x + dx, minX, maxX);
-        float newY = Mathf.Clamp(transform.position.y + dy, minY, maxY);
+        float newX = Mathf.Clamp(transform.position.x + dx, minX - 8f, maxX + 8f);
+        float newY = Mathf.Clamp(transform.position.y + dy, minY - 3.5f, maxY);
+
+        Vector3 cameraPosition = Camera.main.transform.position;
+        if (newX < minX || newX > maxX) {
+            cameraPosition.x -= newX - transform.position.x;
+        }
+
+        if (newY < minY) {
+            cameraPosition.y -= newY - transform.position.y;
+        }
+
+        Camera.main.transform.position = cameraPosition;
         transform.position = new Vector3(newX, newY, 0f);
     }
 }

@@ -7,7 +7,6 @@ public class Power : MonoBehaviour
     private static float maxDistance = 1f;
 
     private bool dragging;
-    private Player player;
     private float dx, dy;
     public string type;
 
@@ -15,9 +14,8 @@ public class Power : MonoBehaviour
     void Start()
     {
         dragging = false;
-        player = FindObjectOfType<Player>();
-        dx = transform.position.x - player.transform.position.x;
-        dy = transform.position.y - player.transform.position.y;
+        dx = transform.position.x - Camera.main.transform.position.x;
+        dy = transform.position.y - Camera.main.transform.position.y;
     }
 
     // Update is called once per frame
@@ -28,8 +26,8 @@ public class Power : MonoBehaviour
     }
 
     private void UpdatePosition() {
-        float x = player.transform.position.x + dx;
-        float y = player.transform.position.y + dy;
+        float x = Camera.main.transform.position.x + dx;
+        float y = Camera.main.transform.position.y + dy;
         transform.position = new Vector3(x, y, 0f);
     }
 
