@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: find-key
   description: Fall must find the key to leave the room
+  message: This is a message
   needed:
   - {fileID: 11400000, guid: 6d2918b244421004a97cf2075e7176ee, type: 2}
   extra:

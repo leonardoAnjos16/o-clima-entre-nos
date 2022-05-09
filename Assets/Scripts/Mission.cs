@@ -6,7 +6,7 @@ using UnityEngine;
 public class Mission: ScriptableObject
 {
     public new string name;
-    public string description;
+    public string description, message;
 
     private int interactionIndex;
     public Interaction[] needed, extra;
