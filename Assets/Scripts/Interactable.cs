@@ -18,6 +18,8 @@ public class InteractionsDictionaryEntry {
 
 public class Interactable : MonoBehaviour
 {
+    private GameController gameController;
+
     private Dictionary<string, string> _data;
     public DataDictionaryEntry[] data;
 
@@ -28,6 +30,8 @@ public class Interactable : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameController = FindObjectOfType<GameController>();
+
         _data = new Dictionary<string, string>();
         foreach (DataDictionaryEntry pieceOfData in data) {
             _data.Add(pieceOfData.key, pieceOfData.value);
@@ -57,24 +61,11 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    private bool MissionIsActive(Interaction interaction) {
-        Mission currentMission = GameController.GetMission();
-        return interaction.GetMission().name == currentMission.name;
-    }
-
     private bool InteractionIsActive(Interaction interaction) {
-        if (!MissionIsActive(interaction)) {
-            return false;
-        }
-
-        return GameController.GetMission().GetInteraction().name == interaction.name;
+        return gameController.mission.GetInteraction().name == interaction.name;
     }
 
     private bool ExtraInteractionIsActive(Interaction interaction) {
-        if (!MissionIsActive(interaction)) {
-            return false;
-        }
-
-        return GameController.GetMission().HasExtra(interaction.name);
+        return gameController.mission.HasExtra(interaction.name);
     }
 }

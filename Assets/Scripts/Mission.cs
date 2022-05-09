@@ -20,8 +20,9 @@ public class Mission: ScriptableObject
     }
 
     public void NextInteraction() {
+        GameController gameController = FindObjectOfType<GameController>();
         if (++interactionIndex >= needed.Length) {
-            GameController.NextMission();
+            gameController.NextMission();
         }
     }
 

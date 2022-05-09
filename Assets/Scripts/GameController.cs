@@ -1,52 +1,39 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
-    private static int missionIndex;
-    private static Mission[] missions;
-    public static bool finishedMission;
+    public Mission mission;
+    public string nextScene;
 
     public AudioClip victorySound;
     public AudioSource soundEffectSource;
     private AudioSource backgroundMusicSource;
+    
     public GameObject congratulationsPanel;
 
-    void Awake() {
-        missionIndex = 0;
-        finishedMission = false;
+    // Start is called before the first frame update
+    void Start() {
+        mission.Init();
         backgroundMusicSource = GetComponent<AudioSource>();
-
-        missions = Resources.LoadAll<Mission>("Missions");
-        missions[0].Init();
     }
 
-    public static Mission GetMission() {
-        return missions[missionIndex];
+    public void NextMission() {
+        backgroundMusicSource.Stop();
+        soundEffectSource.PlayOneShot(victorySound);
+        StartCoroutine(ShowCongratulationsPanel());
     }
 
-    public static void NextMission() {
-        missionIndex++;
-        finishedMission = true;
-
-        if (missionIndex < missions.Length) {
-            missions[missionIndex].Init();
-        }
-
-        GameController gameController = FindObjectOfType<GameController>();
-        gameController.backgroundMusicSource.Stop();
-        gameController.soundEffectSource.PlayOneShot(gameController.victorySound);
-        gameController.StartCoroutine(ShowCongratulationsPanel(gameController));
-    }
-
-    public static IEnumerator ShowCongratulationsPanel(GameController gameController) {
+    private IEnumerator ShowCongratulationsPanel() {
         yield return new WaitForSeconds(1f);
-        gameController.congratulationsPanel.SetActive(true);
+        congratulationsPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void GoToNextMission() {
-        finishedMission = false;
-        congratulationsPanel.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(nextScene);
     }
 }

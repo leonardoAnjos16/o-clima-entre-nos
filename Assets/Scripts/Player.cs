@@ -22,7 +22,6 @@ public class Player : MonoBehaviour
     void Update()
     {
         animator.SetBool("walking", false);
-        if (GameController.finishedMission) return;
 
         float dx = 0f;
         if (Input.GetKey("right")) {

@@ -1800,6 +1800,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fd62a44f2feca4181f847ee8e047b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mission: {fileID: 11400000, guid: 537f96eba7d53634fbf091e26f53ec67, type: 2}
+  nextScene: Train
   victorySound: {fileID: 8300000, guid: d56f239a6020cf54e807f32f0fac176c, type: 3}
   soundEffectSource: {fileID: 61149096}
   congratulationsPanel: {fileID: 624999563}
