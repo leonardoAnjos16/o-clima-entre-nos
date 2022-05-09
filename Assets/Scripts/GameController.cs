@@ -9,13 +9,14 @@ public class GameController : MonoBehaviour
     public static bool finishedMission;
 
     public AudioClip victorySound;
-    private AudioSource audioSource;
+    public AudioSource soundEffectSource;
+    private AudioSource backgroundMusicSource;
     public GameObject congratulationsPanel;
 
     void Awake() {
         missionIndex = 0;
         finishedMission = false;
-        audioSource = GetComponent<AudioSource>();
+        backgroundMusicSource = GetComponent<AudioSource>();
 
         missions = Resources.LoadAll<Mission>("Missions");
         missions[0].Init();
@@ -34,7 +35,8 @@ public class GameController : MonoBehaviour
         }
 
         GameController gameController = FindObjectOfType<GameController>();
-        gameController.audioSource.PlayOneShot(gameController.victorySound);
+        gameController.backgroundMusicSource.Stop();
+        gameController.soundEffectSource.PlayOneShot(gameController.victorySound);
         gameController.StartCoroutine(ShowCongratulationsPanel(gameController));
     }
 
