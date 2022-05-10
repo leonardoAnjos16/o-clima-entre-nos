@@ -44,6 +44,35 @@ public class Interactable : MonoBehaviour
             usesCount.Add(interaction.powerType, 0);
             _interactions.Add(interaction.powerType, new Tuple<Interaction, int>(interaction.interaction, interaction.maxAllowedUses));
         }
+
+        AddOutline(gameObject);
+    }
+
+    private void AddOutline(GameObject gameObject) {
+        SpriteRenderer renderer = gameObject.GetComponent<SpriteRenderer>();
+        if (renderer != null) {
+            GameObject outline = new GameObject();
+            outline.name = "outline";
+
+            SpriteRenderer outlineRenderer = outline.AddComponent<SpriteRenderer>();
+            outlineRenderer.material.shader = Shader.Find("GUI/Text Shader");
+            outlineRenderer.sortingOrder = renderer.sortingOrder - 1;
+            outlineRenderer.sprite = renderer.sprite;
+            outlineRenderer.color = Color.white;
+
+            // outline.transform.localScale = new Vector3(1.1f, 1.1f, 1f);
+            outline.transform.position += new Vector3(.005f, .005f, 0f);
+            Instantiate(outline, gameObject.transform);
+
+            outline.transform.position -= new Vector3(.01f, .01f, 0f);
+            Instantiate(outline, gameObject.transform);
+            Destroy(outline);
+        } else {
+            foreach (Transform child in gameObject.transform) {
+                AddOutline(child.gameObject);
+            }
+        }
+
     }
 
     public void Interact(string powerType) {
