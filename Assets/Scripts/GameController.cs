@@ -16,6 +16,8 @@ public class GameController : MonoBehaviour
     public GameObject congratulationsPanel;
     public Text messageText;
 
+    public float minX, maxX, minY, maxY;
+
     // Start is called before the first frame update
     void Start() {
         mission.Init();

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private GameController gameController;
     private Animator animator;
-    public float speed, minX, maxX, minY, maxY;
+    public float speed;
 
     private bool facingRight;
     private new SpriteRenderer renderer;
@@ -16,6 +17,7 @@ public class Player : MonoBehaviour
         facingRight = true;
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
+        gameController = FindObjectOfType<GameController>();
     }
 
     // Update is called once per frame
@@ -45,15 +47,15 @@ public class Player : MonoBehaviour
             animator.SetBool("walking", true);
         }
 
-        float newX = Mathf.Clamp(transform.position.x + dx, minX - 8f, maxX + 8f);
-        float newY = Mathf.Clamp(transform.position.y + dy, minY - 3.5f, maxY);
+        float newX = Mathf.Clamp(transform.position.x + dx, gameController.minX - 8f, gameController.maxX + 8f);
+        float newY = Mathf.Clamp(transform.position.y + dy, gameController.minY - 3.5f, gameController.maxY);
 
         Vector3 cameraPosition = Camera.main.transform.position;
-        if (newX < minX || newX > maxX) {
+        if (newX < gameController.minX || newX > gameController.maxX) {
             cameraPosition.x -= newX - transform.position.x;
         }
 
-        if (newY < minY) {
+        if (newY < gameController.minY) {
             cameraPosition.y -= newY - transform.position.y;
         }
 
