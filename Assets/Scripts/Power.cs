@@ -6,6 +6,7 @@ public class Power : MonoBehaviour
 {
     private static float maxDistance = 1f;
 
+    private GameController gameController;
     private bool dragging;
     private float dx, dy;
     public string type;
@@ -14,6 +15,7 @@ public class Power : MonoBehaviour
     void Start()
     {
         dragging = false;
+        gameController = FindObjectOfType<GameController>();
         dx = transform.position.x - Camera.main.transform.position.x;
         dy = transform.position.y - Camera.main.transform.position.y;
     }
@@ -31,12 +33,18 @@ public class Power : MonoBehaviour
         transform.position = new Vector3(x, y, 0f);
     }
 
+    private void OnMouseEnter() {
+        Cursor.SetCursor(gameController.mouseHand, Vector2.zero, CursorMode.Auto);
+    }
+
     private void OnMouseDrag() {
         dragging = true;
         transform.position = (Vector2) Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 
     private void OnMouseUp() {
+        Cursor.SetCursor(gameController.mousePointer, Vector2.zero, CursorMode.Auto);
+
         Interactable[] interactableObjects = FindObjectsOfType<Interactable>();
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
@@ -46,6 +54,10 @@ public class Power : MonoBehaviour
 
         UpdatePosition();
         dragging = false;
+    }
+
+    private void OnMouseExit() {
+        Cursor.SetCursor(gameController.mousePointer, Vector2.zero, CursorMode.Auto);
     }
 
     private bool Touch(GameObject other) {

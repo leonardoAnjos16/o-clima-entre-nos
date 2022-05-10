@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour
     public Mission mission;
     public string nextScene;
 
+    public Texture2D mousePointer, mouseHand;
+
     public AudioClip victorySound;
     public AudioSource soundEffectSource;
     private AudioSource backgroundMusicSource;
@@ -22,6 +24,7 @@ public class GameController : MonoBehaviour
     void Start() {
         mission.Init();
         backgroundMusicSource = GetComponent<AudioSource>();
+        Cursor.SetCursor(mousePointer, Vector2.zero, CursorMode.Auto);
     }
 
     public void NextMission() {
