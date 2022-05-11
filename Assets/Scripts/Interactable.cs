@@ -54,7 +54,6 @@ public class Interactable : MonoBehaviour
         if (renderer != null) {
             GameObject outline = new GameObject();
             outline.name = "outline";
-            outline.tag = "outline";
 
             SpriteRenderer outlineRenderer = outline.AddComponent<SpriteRenderer>();
             outlineRenderer.material.shader = Shader.Find("GUI/Text Shader");
@@ -62,17 +61,15 @@ public class Interactable : MonoBehaviour
             outlineRenderer.sprite = renderer.sprite;
             outlineRenderer.color = Color.white;
 
-            // outline.transform.localScale = new Vector3(1.1f, 1.1f, 1f);
             outline.transform.position += new Vector3(.005f, .005f, 0f);
             GameObject addedOutline = Instantiate(outline, gameObject.transform);
-            outlines.Add(addedOutline);
             addedOutline.SetActive(false);
-
+            outlines.Add(addedOutline);
 
             outline.transform.position -= new Vector3(.01f, .01f, 0f);
             addedOutline = Instantiate(outline, gameObject.transform);
-            outlines.Add(addedOutline);
             addedOutline.SetActive(false);
+            outlines.Add(addedOutline);
 
             Destroy(outline);
         } else {
@@ -80,11 +77,6 @@ public class Interactable : MonoBehaviour
                 AddOutline(child.gameObject);
             }
         }
-
-        foreach (GameObject outline in outlines) {
-            outline.SetActive(false);
-        }
-
     }
 
     public void Interact(string powerType) {

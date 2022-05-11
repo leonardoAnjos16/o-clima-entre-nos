@@ -7,10 +7,10 @@ public class Power : MonoBehaviour
     private static float maxDistance = 1f;
 
     private GameController gameController;
+    private Interactable[] interactableObjects;
     private bool dragging;
     private float dx, dy;
     public string type;
-    private Interactable[] interactableObjects;
 
     // Start is called before the first frame update
     void Start()
@@ -46,7 +46,7 @@ public class Power : MonoBehaviour
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.ChangeOutline(true);
-            }else{
+            } else{
                 interactable.ChangeOutline(false);
             }
         }
@@ -54,12 +54,10 @@ public class Power : MonoBehaviour
 
     private void OnMouseUp() {
         Cursor.SetCursor(gameController.mousePointer, Vector2.zero, CursorMode.Auto);
-
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.Interact(type);
                 interactable.ChangeOutline(false);
-
             }
         }
 
