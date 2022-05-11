@@ -26,6 +26,7 @@ public class Interactable : MonoBehaviour
     private Dictionary<string, int> usesCount;
     private Dictionary<string, Tuple<Interaction, int>> _interactions;
     public InteractionsDictionaryEntry[] interactions;
+    private List<GameObject> outlines = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -63,18 +64,22 @@ public class Interactable : MonoBehaviour
 
             // outline.transform.localScale = new Vector3(1.1f, 1.1f, 1f);
             outline.transform.position += new Vector3(.005f, .005f, 0f);
-            Instantiate(outline, gameObject.transform);
+            GameObject addedOutline = Instantiate(outline, gameObject.transform);
+            outlines.Add(addedOutline);
+            addedOutline.SetActive(false);
+
 
             outline.transform.position -= new Vector3(.01f, .01f, 0f);
-            Instantiate(outline, gameObject.transform);
+            addedOutline = Instantiate(outline, gameObject.transform);
+            outlines.Add(addedOutline);
+            addedOutline.SetActive(false);
+
             Destroy(outline);
         } else {
             foreach (Transform child in gameObject.transform) {
                 AddOutline(child.gameObject);
             }
         }
-
-        GameObject[] outlines = GameObject.FindGameObjectsWithTag("outline");
 
         foreach (GameObject outline in outlines) {
             outline.SetActive(false);
@@ -105,16 +110,9 @@ public class Interactable : MonoBehaviour
         return gameController.mission.HasExtra(interaction.name);
     }
 
-    public void ChangeOutline(bool status, GameObject parent){
-         foreach (Transform child in parent.transform)
-          {
-
-              if (child.CompareTag("outline")){
-                    child.gameObject.SetActive(status);
-              }else{
-                  ChangeOutline(status, child.gameObject);
-              }
-
-          }
+    public void ChangeOutline(bool status){
+        foreach (GameObject outline in outlines) {
+            outline.SetActive(status);
+        }
     }
 }

@@ -45,9 +45,9 @@ public class Power : MonoBehaviour
 
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
-                interactable.ChangeOutline(true, interactable.gameObject);
+                interactable.ChangeOutline(true);
             }else{
-                interactable.ChangeOutline(false, interactable.gameObject);
+                interactable.ChangeOutline(false);
             }
         }
     }
@@ -58,6 +58,8 @@ public class Power : MonoBehaviour
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.Interact(type);
+                interactable.ChangeOutline(false);
+
             }
         }
 
