@@ -45,11 +45,8 @@ public class Power : MonoBehaviour
 
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
-                Debug.Log("chamou o change outline true");
                 interactable.ChangeOutline(true, interactable.gameObject);
             }else{
-                Debug.Log("chamou o change outline false");
-
                 interactable.ChangeOutline(false, interactable.gameObject);
             }
         }
@@ -58,7 +55,6 @@ public class Power : MonoBehaviour
     private void OnMouseUp() {
         Cursor.SetCursor(gameController.mousePointer, Vector2.zero, CursorMode.Auto);
 
-        //Interactable[] interactableObjects = FindObjectsOfType<Interactable>();
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.Interact(type);

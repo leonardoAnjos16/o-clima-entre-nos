@@ -106,16 +106,11 @@ public class Interactable : MonoBehaviour
     }
 
     public void ChangeOutline(bool status, GameObject parent){
-        //parent = this.gameObject;
-
          foreach (Transform child in parent.transform)
           {
-            Debug.Log("entrou no change compare");
 
               if (child.CompareTag("outline")){
                     child.gameObject.SetActive(status);
-                    Debug.Log("setou:");
-                    Debug.Log(status);
               }else{
                   ChangeOutline(status, child.gameObject);
               }
