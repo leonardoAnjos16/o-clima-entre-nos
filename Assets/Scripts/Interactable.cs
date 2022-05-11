@@ -53,6 +53,7 @@ public class Interactable : MonoBehaviour
         if (renderer != null) {
             GameObject outline = new GameObject();
             outline.name = "outline";
+            outline.tag = "outline";
 
             SpriteRenderer outlineRenderer = outline.AddComponent<SpriteRenderer>();
             outlineRenderer.material.shader = Shader.Find("GUI/Text Shader");
@@ -71,6 +72,12 @@ public class Interactable : MonoBehaviour
             foreach (Transform child in gameObject.transform) {
                 AddOutline(child.gameObject);
             }
+        }
+
+        GameObject[] outlines = GameObject.FindGameObjectsWithTag("outline");
+
+        foreach (GameObject outline in outlines) {
+            outline.SetActive(false);
         }
 
     }
@@ -96,5 +103,23 @@ public class Interactable : MonoBehaviour
 
     private bool ExtraInteractionIsActive(Interaction interaction) {
         return gameController.mission.HasExtra(interaction.name);
+    }
+
+    public void ChangeOutline(bool status, GameObject parent){
+        //parent = this.gameObject;
+
+         foreach (Transform child in parent.transform)
+          {
+            Debug.Log("entrou no change compare");
+
+              if (child.CompareTag("outline")){
+                    child.gameObject.SetActive(status);
+                    Debug.Log("setou:");
+                    Debug.Log(status);
+              }else{
+                  ChangeOutline(status, child.gameObject);
+              }
+
+          }
     }
 }

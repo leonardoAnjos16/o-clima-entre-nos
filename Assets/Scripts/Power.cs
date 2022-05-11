@@ -10,6 +10,7 @@ public class Power : MonoBehaviour
     private bool dragging;
     private float dx, dy;
     public string type;
+    private Interactable[] interactableObjects;
 
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,7 @@ public class Power : MonoBehaviour
         gameController = FindObjectOfType<GameController>();
         dx = transform.position.x - Camera.main.transform.position.x;
         dy = transform.position.y - Camera.main.transform.position.y;
+        interactableObjects = FindObjectsOfType<Interactable>();
     }
 
     // Update is called once per frame
@@ -40,12 +42,23 @@ public class Power : MonoBehaviour
     private void OnMouseDrag() {
         dragging = true;
         transform.position = (Vector2) Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        foreach (Interactable interactable in interactableObjects) {
+            if (Touch(interactable.gameObject)) {
+                Debug.Log("chamou o change outline true");
+                interactable.ChangeOutline(true, interactable.gameObject);
+            }else{
+                Debug.Log("chamou o change outline false");
+
+                interactable.ChangeOutline(false, interactable.gameObject);
+            }
+        }
     }
 
     private void OnMouseUp() {
         Cursor.SetCursor(gameController.mousePointer, Vector2.zero, CursorMode.Auto);
 
-        Interactable[] interactableObjects = FindObjectsOfType<Interactable>();
+        //Interactable[] interactableObjects = FindObjectsOfType<Interactable>();
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
                 interactable.Interact(type);
