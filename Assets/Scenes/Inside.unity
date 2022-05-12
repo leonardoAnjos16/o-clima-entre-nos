@@ -414,6 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: shrink
+  soundEffect: {fileID: 0}
 --- !u!212 &583349665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1001,6 +1002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: destroy
+  soundEffect: {fileID: 0}
 --- !u!212 &1315235582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1668,6 +1670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: grow
+  soundEffect: {fileID: 0}
 --- !u!212 &1658984152
 SpriteRenderer:
   m_ObjectHideFlags: 0

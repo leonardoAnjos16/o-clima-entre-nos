@@ -10,7 +10,9 @@ public class Power : MonoBehaviour
     private Interactable[] interactableObjects;
     private bool dragging;
     private float dx, dy;
+
     public string type;
+    public AudioClip soundEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -56,7 +58,7 @@ public class Power : MonoBehaviour
         Cursor.SetCursor(gameController.mousePointer, Vector2.zero, CursorMode.Auto);
         foreach (Interactable interactable in interactableObjects) {
             if (Touch(interactable.gameObject)) {
-                interactable.Interact(type);
+                interactable.Interact(this);
                 interactable.ChangeOutline(false);
             }
         }

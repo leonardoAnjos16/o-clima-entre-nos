@@ -44,4 +44,8 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(nextScene);
     }
+
+    public void PlaySoundEffect(AudioClip clip) {
+        soundEffectSource.PlayOneShot(clip);
+    }
 }

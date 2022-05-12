@@ -89,16 +89,19 @@ public class Interactable : MonoBehaviour
         return InteractionIsActive(interaction) || ExtraInteractionIsActive(interaction);
     }
 
-    public void Interact(string powerType) {
+    public void Interact(Power power) {
+        string powerType = power.type;
         if (_interactions.ContainsKey(powerType)) {
             if (usesCount[powerType] < _interactions[powerType].Item2) {
                 Interaction interaction = _interactions[powerType].Item1;
                 if (InteractionIsActive(interaction)) {
                     usesCount[powerType]++;
                     interaction.Interact(gameObject, _data);
+                    gameController.PlaySoundEffect(power.soundEffect);
                 } else if (ExtraInteractionIsActive(interaction)) {
                     usesCount[powerType]++;
                     interaction.Interact(gameObject, _data, true);
+                    gameController.PlaySoundEffect(power.soundEffect);
                 }
             }
         }

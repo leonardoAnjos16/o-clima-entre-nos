@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: wind
+  soundEffect: {fileID: 8300000, guid: 04ba9bccb87a27443ba63ce72d66b206, type: 3}
 --- !u!58 &2026142125059876491
 CircleCollider2D:
   m_ObjectHideFlags: 0

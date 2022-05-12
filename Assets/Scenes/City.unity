@@ -8091,6 +8091,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1370361149}
     m_Modifications:
+    - target: {fileID: 1394869503, guid: 90b04673582bba04b96b3bbe26542ae7, type: 3}
+      propertyPath: angle
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 6152212842305292744, guid: 90b04673582bba04b96b3bbe26542ae7, type: 3}
       propertyPath: m_Name
       value: Tree

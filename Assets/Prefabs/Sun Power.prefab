@@ -196,3 +196,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: sun
+  soundEffect: {fileID: 8300000, guid: b6e3a70a47f501544958935d860a08e7, type: 3}
