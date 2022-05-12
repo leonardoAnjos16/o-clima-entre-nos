@@ -1533,6 +1533,7 @@ GameObject:
   - component: {fileID: 1166394668}
   - component: {fileID: 1166394667}
   - component: {fileID: 1166394669}
+  - component: {fileID: 1166394670}
   m_Layer: 0
   m_Name: Manhole
   m_TagString: Untagged
@@ -1626,6 +1627,18 @@ MonoBehaviour:
     maxAllowedUses: 1
     interaction: {fileID: 11400000, guid: 9fb702961a4d71a4a9763dc5deb5ba3d, type: 2}
   outlineWidth: 0.05
+--- !u!114 &1166394670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166394666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cb9eaabb0b50104f9bc7c551c83f6bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1195935848
 GameObject:
   m_ObjectHideFlags: 0

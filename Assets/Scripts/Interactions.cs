@@ -33,15 +33,17 @@ public class Interactions: ScriptableObject
     }
 
     public void ShakeTree(GameObject gameObject, Dictionary<string, string> data) {
-        Debug.Log("Shaking");
+        TreeObject tree = gameObject.GetComponent<TreeObject>();
+        tree.StartCoroutine(tree.Shake());
     }
 
     public void ShrinkManhole(GameObject gameObject, Dictionary<string, string> data) {
-        gameObject.transform.localScale *= .8f;
-        gameObject.transform.position += new Vector3(0f, .1f, 0f);
+        Manhole manhole = gameObject.GetComponent<Manhole>();
+        manhole.StartCoroutine(manhole.Shrink());
     }
 
     public void ThrowManhole(GameObject gameObject, Dictionary<string, string> data) {
-        gameObject.transform.position += new Vector3(1f, 1f, 0f);
+        Manhole manhole = gameObject.GetComponent<Manhole>();
+        manhole.StartCoroutine(manhole.Throw());
     }
 }
