@@ -81,6 +81,14 @@ public class Interactable : MonoBehaviour
         }
     }
 
+    public bool ShouldInteract(string powerType) {
+        if (!_interactions.ContainsKey(powerType)) return false;
+        if (usesCount[powerType] >= _interactions[powerType].Item2) return false;
+
+        Interaction interaction = _interactions[powerType].Item1;
+        return InteractionIsActive(interaction) || ExtraInteractionIsActive(interaction);
+    }
+
     public void Interact(string powerType) {
         if (_interactions.ContainsKey(powerType)) {
             if (usesCount[powerType] < _interactions[powerType].Item2) {

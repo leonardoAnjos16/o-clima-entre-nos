@@ -44,9 +44,9 @@ public class Power : MonoBehaviour
         transform.position = (Vector2) Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
         foreach (Interactable interactable in interactableObjects) {
-            if (Touch(interactable.gameObject)) {
+            if (Touch(interactable.gameObject) && interactable.ShouldInteract(type)) {
                 interactable.ChangeOutline(true);
-            } else{
+            } else {
                 interactable.ChangeOutline(false);
             }
         }
