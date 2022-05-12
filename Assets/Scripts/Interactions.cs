@@ -37,10 +37,11 @@ public class Interactions: ScriptableObject
     }
 
     public void ShrinkManhole(GameObject gameObject, Dictionary<string, string> data) {
-        Debug.Log("Shrinking");
+        gameObject.transform.localScale *= .8f;
+        gameObject.transform.position += new Vector3(0f, .1f, 0f);
     }
 
     public void ThrowManhole(GameObject gameObject, Dictionary<string, string> data) {
-        Debug.Log("Throwing");
+        gameObject.transform.position += new Vector3(1f, 1f, 0f);
     }
 }
