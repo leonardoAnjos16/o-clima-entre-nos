@@ -31,4 +31,16 @@ public class Interactions: ScriptableObject
     public void MoveAndReveal(GameObject gameObject, Dictionary<string, string> data) {
         gameObject.transform.position += new Vector3(1f, 2f, 0f);
     }
+
+    public void ShakeTree(GameObject gameObject, Dictionary<string, string> data) {
+        Debug.Log("Shaking");
+    }
+
+    public void ShrinkManhole(GameObject gameObject, Dictionary<string, string> data) {
+        Debug.Log("Shrinking");
+    }
+
+    public void ThrowManhole(GameObject gameObject, Dictionary<string, string> data) {
+        Debug.Log("Throwing");
+    }
 }

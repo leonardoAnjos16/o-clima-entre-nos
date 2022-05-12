@@ -26,6 +26,8 @@ public class Interactable : MonoBehaviour
     private Dictionary<string, int> usesCount;
     private Dictionary<string, Tuple<Interaction, int>> _interactions;
     public InteractionsDictionaryEntry[] interactions;
+
+    public float outlineWidth = 0.005f;
     private List<GameObject> outlines = new List<GameObject>();
 
     // Start is called before the first frame update
@@ -61,12 +63,12 @@ public class Interactable : MonoBehaviour
             outlineRenderer.sprite = renderer.sprite;
             outlineRenderer.color = Color.white;
 
-            outline.transform.position += new Vector3(.005f, .005f, 0f);
+            outline.transform.position += new Vector3(outlineWidth, outlineWidth, 0f);
             GameObject addedOutline = Instantiate(outline, gameObject.transform);
             addedOutline.SetActive(false);
             outlines.Add(addedOutline);
 
-            outline.transform.position -= new Vector3(.01f, .01f, 0f);
+            outline.transform.position -= new Vector3(2 * outlineWidth, 2 * outlineWidth, 0f);
             addedOutline = Instantiate(outline, gameObject.transform);
             addedOutline.SetActive(false);
             outlines.Add(addedOutline);
