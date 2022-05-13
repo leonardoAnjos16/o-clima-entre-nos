@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: fix-train
   description: Fall must fix the train to go to another city
-  message: This is another message
+  message: O cantar pelas frestas madeiradas chamam Lila
   needed:
   - {fileID: 11400000, guid: cb2c8d4ff07815e4b875838b051cd7c3, type: 2}
   - {fileID: 11400000, guid: cb2c8d4ff07815e4b875838b051cd7c3, type: 2}

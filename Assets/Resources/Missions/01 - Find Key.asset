@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: find-key
   description: Fall must find the key to leave the room
-  message: 'Os caminhos do vento germinam na quietude terra de Austrem '
+  message: 'Os caminhos do vento germinam na quietude de Austrem '
   needed:
   - {fileID: 11400000, guid: 6d2918b244421004a97cf2075e7176ee, type: 2}
   extra:

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: access-underground
   description: Fall must find a way to go underground
-  message: This is yet another message
+  message: As profundezas dos arredores sombrios dominam o interior perdido
   needed:
   - {fileID: 11400000, guid: 9fb702961a4d71a4a9763dc5deb5ba3d, type: 2}
   - {fileID: 11400000, guid: 277837a3321477c46a373b8f7d20f821, type: 2}
