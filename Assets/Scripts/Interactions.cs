@@ -46,4 +46,9 @@ public class Interactions: ScriptableObject
         Manhole manhole = gameObject.GetComponent<Manhole>();
         manhole.StartCoroutine(manhole.Throw());
     }
+
+    public void RotateFan(GameObject gameObject, Dictionary<string, string> data) {
+        Fan fan = gameObject.GetComponent<Fan>();
+        fan.StartRotating();
+    }
 }
