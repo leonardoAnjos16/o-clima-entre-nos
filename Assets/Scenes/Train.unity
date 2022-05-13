@@ -45435,6 +45435,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680822107632781933, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_Text
+      value: 'Missao: Restaure a energia'
+      objectReference: {fileID: 0}
     - target: {fileID: 2788233521991220740, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
       propertyPath: m_Camera
       value: 
