@@ -50,5 +50,8 @@ public class Interactions: ScriptableObject
     public void RotateFan(GameObject gameObject, Dictionary<string, string> data) {
         Fan fan = gameObject.GetComponent<Fan>();
         fan.StartRotating();
+
+        Train train = FindObjectOfType<Train>();
+        train.ActivateWindmill();
     }
 }

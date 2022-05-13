@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+    private Player player;
+
     public Mission mission;
     public string nextScene;
 
@@ -23,6 +25,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         mission.Init();
+        player = FindObjectOfType<Player>();
         backgroundMusicSource = GetComponent<AudioSource>();
         Cursor.SetCursor(mousePointer, Vector2.zero, CursorMode.Auto);
     }
@@ -37,11 +40,10 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         messageText.text = mission.message;
         congratulationsPanel.SetActive(true);
-        Time.timeScale = 0f;
+        player.Stop();
     }
 
     public void GoToNextMission() {
-        Time.timeScale = 1f;
         SceneManager.LoadScene(nextScene);
     }
 

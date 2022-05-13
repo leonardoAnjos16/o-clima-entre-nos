@@ -8,13 +8,13 @@ public class Player : MonoBehaviour
     private Animator animator;
     public float speed;
 
-    private bool facingRight;
     private new SpriteRenderer renderer;
+    private bool facingRight, shouldMove;
 
     // Start is called before the first frame update
     void Start()
     {
-        facingRight = true;
+        facingRight = shouldMove = true;
         animator = GetComponent<Animator>();
         renderer = GetComponent<SpriteRenderer>();
         gameController = FindObjectOfType<GameController>();
@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!shouldMove) return;
         animator.SetBool("walking", false);
 
         float dx = 0f;
@@ -61,5 +62,9 @@ public class Player : MonoBehaviour
 
         Camera.main.transform.position = cameraPosition;
         transform.position = new Vector3(newX, newY, 0f);
+    }
+
+    public void Stop() {
+        shouldMove = false;
     }
 }
