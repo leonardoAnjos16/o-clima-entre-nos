@@ -1801,7 +1801,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mission: {fileID: 11400000, guid: 8597f4b4a75ccf440b9424e769991aa8, type: 2}
-  nextScene: 
+  nextScene: Subsolo
   mousePointer: {fileID: 2800000, guid: b315330418f704a44a094f8050016d70, type: 3}
   mouseHand: {fileID: 2800000, guid: d4fed4a8dfd418347b069c7a300f7108, type: 3}
   victorySound: {fileID: 8300000, guid: d56f239a6020cf54e807f32f0fac176c, type: 3}

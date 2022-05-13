@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/City.unity
     guid: f957a200c3a8144169f30a8b284ba407
+  - enabled: 1
+    path: Assets/Scenes/Subsolo.unity
+    guid: 2509fb83fa44446ca90115e881e0fc45
   m_configObjects: {}
