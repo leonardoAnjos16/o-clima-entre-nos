@@ -900,6 +900,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680822107632781933, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_Text
+      value: 'Missao: Encontre Lila no subsolo'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192760118971368320, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 625.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1192760118971368320, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 82.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2788233521991220740, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1003,6 +1015,18 @@ PrefabInstance:
     - target: {fileID: 2788233523172890831, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873842981804743561, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 504.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873842981804743561, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4873842981804743561, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e987a7bda5810e429e909e40a28f8fb, type: 3}
